@@ -33,5 +33,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
  Prettier
 
 ## Getting Started with Storybook
-
+```bash
 npm run storybook
+```
