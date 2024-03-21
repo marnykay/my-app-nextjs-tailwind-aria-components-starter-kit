@@ -1,13 +1,18 @@
 "use client";
 import { Button } from "@/components/Button";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-row gap-4 font-thin "> this goig to work</div>
-
-      <Button>Click me</Button>
+    <main className="flex min-h-screen flex-col items-center p-24">
+      <p className="mb-4">
+        A Starter Kit for NextJS, Tailwind CSS, React Aria Components,
+        Storybook, Typescript, Prettier and more.
+      </p>
+      <div className="grid gap-3">
+        <Button>Primary Button</Button>
+        <Button variant="secondary">Secondary Button</Button>
+        <Button variant="destructive">Destructive Button</Button>
+      </div>
     </main>
   );
 }
