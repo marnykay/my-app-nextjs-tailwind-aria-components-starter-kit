@@ -1,9 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Recommend VS Code Extensions
+- Prettier
+- Tailwind CSS IntelliSense
+- GitHub Copilot (Optional)
+
+## VS Code Setting
+Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Extension > Prettier > Prettier Enable (make sure this is checked and you may have to restart VS Code)  
+Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Text Editor > Formatting > Format On Save > make sure this is checked
+  
 ## Getting Started
-
-First, run the development server:
-
+First, to run the development server, enter one of the following in the terminal:
+(I personally use npm run dev or npm start works too)
 ```bash
 npm run dev
 # or
@@ -12,6 +20,17 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+To build, enter the following in the terminal:
+
+```bash
+npm run build
+```
+
+To run storybook, enter the following in the terminal:
+
+```bash
+npm run storybook
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -29,10 +48,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Recommend VS Code Extensions
- Prettier
-
-## Getting Started with Storybook
-```bash
-npm run storybook
-```
+- To learn about Storybook: [Storybook for Nextjs](https://storybook.js.org/docs/get-started/nextjs)
+- To learn about Aria Componets: [Adobe Aria Component](https://react-spectrum.adobe.com/react-aria/)
+- To learn about Tailwind CSS: [Aria Components with Tailwind CSS](https://react-spectrum.adobe.com/react-aria/styling.html#tailwind-css) or [Tailwind CSS official Documentation](https://tailwindcss.com/docs/installation)
