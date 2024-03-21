@@ -6,8 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - GitHub Copilot (Optional)
 
 ## VS Code Setting
-Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Extension > Prettier > Prettier Enable (make sure this is checked and you may have to restart VS Code)  
-Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Text Editor > Formatting > Format On Save > make sure this is checked
+- Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Extension > Prettier > Prettier Enable (make sure this is checked and you may have to restart VS Code)  
+- Go to Settings (Cog in the bottom left) > Settings (in the popup menu) > Text Editor > Formatting > Format On Save > make sure this is checked
   
 ## Getting Started
 First, to run the development server, enter one of the following in the terminal:
