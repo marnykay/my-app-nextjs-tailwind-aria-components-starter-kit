@@ -1,3 +1,5 @@
+"use client";
+
 import { AlertCircleIcon, InfoIcon } from "lucide-react";
 import React, { ReactNode } from "react";
 import { chain } from "react-aria";

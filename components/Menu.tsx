@@ -1,3 +1,5 @@
+"use client";
+
 import { Check, ChevronRight } from 'lucide-react';
 import React from 'react';
 import {
