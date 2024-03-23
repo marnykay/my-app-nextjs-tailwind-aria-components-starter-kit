@@ -5,6 +5,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./stories/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -16,8 +17,8 @@ const config: Config = {
     },
   },
   plugins: [
-    require('tailwindcss-react-aria-components'),
-    require('tailwindcss-animate')
+    require("tailwindcss-react-aria-components"),
+    require("tailwindcss-animate"),
   ],
 };
 export default config;
