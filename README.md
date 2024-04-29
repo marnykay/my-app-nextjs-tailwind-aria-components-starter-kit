@@ -23,7 +23,6 @@ pnpm dev
 # or
 bun dev
 ```
-I personally use ```npm run dev``` or ```npm start``` works too.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
